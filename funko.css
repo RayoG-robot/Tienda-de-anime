@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width:300px ;
+    height:400px ;
+}
+body{
+    background-image: url("../img/fondo2.png") ;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: #E2E05F;
+    padding:16px;
+}
+p{
+    color: white;
+    border: 10px #E2E05F groove;
+    padding: 10px;
+    width: 300px;
+    background-color: black;
+}
+a{
+    color:red;
+    text-decoration: none;
+}
+#volver{
+    justify-content:end;
+    color: black;
+}
+.funkos{
+    display: flex;
+    align-items: center;
+    gap: 450px;
+    padding:30px 45px;
+}
+
+.parr{
+    flex: 1;
+}
